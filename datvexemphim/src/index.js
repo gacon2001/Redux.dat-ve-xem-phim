@@ -8,7 +8,7 @@ import "jquery/dist/jquery.min.js";
 import "popper.js/dist/umd/popper.min.js";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 import {Provider} from "react-redux";
-import rootReducer from "./redux";
+import rootReducer from './redux/main';
 import {createStore} from "redux";
 const store = createStore(rootReducer)
 

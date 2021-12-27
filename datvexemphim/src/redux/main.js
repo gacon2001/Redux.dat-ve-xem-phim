@@ -1,5 +1,5 @@
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
+import DatGheReducer from "./reducer";
 
-const rootReducer = combineReducers({
-})
+const rootReducer = combineReducers({ DatGheReducer });
 export default rootReducer;
